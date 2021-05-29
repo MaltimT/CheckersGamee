@@ -115,9 +115,9 @@ namespace CheckersGame
             {
                 if (isMoving)
                 {
-                    if(map[pressedButton.Location.Y / sizeOfCell, pressedButton.Location.X / sizeOfCell] != 2 
-                        && map[pressedButton.Location.Y / sizeOfCell, pressedButton.Location.X / sizeOfCell] != 1
-                        && map[pressedButton.Location.Y / sizeOfCell, pressedButton.Location.X / sizeOfCell] != 4)
+                    //if(map[pressedButton.Location.Y / sizeOfCell, pressedButton.Location.X / sizeOfCell] != 2 
+                    //    && map[pressedButton.Location.Y / sizeOfCell, pressedButton.Location.X / sizeOfCell] != 1
+                    //    && map[pressedButton.Location.Y / sizeOfCell, pressedButton.Location.X / sizeOfCell] != 4)
                     {
 
                             pressedButton.Image = previousMemorization.Image;
